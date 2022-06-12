@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Categories>
+  <Category>
+    <Category_ID>Cat1</Category_ID>
+    <Category_Name>Male</Category_Name>
+    <Category_Description>Male first choice!!!</Category_Description>
+  </Category>
+  <Category>
+    <Category_ID>Cat2</Category_ID>
+    <Category_Name>Female</Category_Name>
+    <Category_Description>Female first choice!</Category_Description>
+  </Category>
+  <Category>
+    <Category_ID>Cat3</Category_ID>
+    <Category_Name>Young</Category_Name>
+    <Category_Description>Young first choice!</Category_Description>
+  </Category>
+  <Category>
+    <Category_ID>Cat4</Category_ID>
+    <Category_Name>Kids</Category_Name>
+    <Category_Description>Best for Kids</Category_Description>
+  </Category>
+  <Category>
+    <Category_ID>Cat5</Category_ID>
+    <Category_Name>Special</Category_Name>
+    <Category_Description>Special</Category_Description>
+  </Category>
+</Categories>

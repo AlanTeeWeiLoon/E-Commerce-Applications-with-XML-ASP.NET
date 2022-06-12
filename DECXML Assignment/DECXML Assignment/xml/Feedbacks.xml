@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Feedbacks SYSTEM "Feedbacks.dtd"[]>
+<Feedbacks>
+  <Feedback>
+    <feedback_id>Feedback1</feedback_id>
+    <name>Alan</name>
+    <email>alan@gmail.com</email>
+    <subject>Good</subject>
+    <message>Good Platform</message>
+    <date>11/30/2021</date>
+  </Feedback>
+  <Feedback>
+    <feedback_id>Feedback2</feedback_id>
+    <name>Kelvin</name>
+    <email>kelvin@gmail.com</email>
+    <subject>Feedback for DECXML</subject>
+    <message>Good online shopping experience!</message>
+    <date>12/5/2021</date>
+  </Feedback>
+  <Feedback>
+    <feedback_id>Feedback3</feedback_id>
+    <name>Ben</name>
+    <email>ben@gmail.com</email>
+    <subject>Feedback from Ben</subject>
+    <message>Price reasonable and product nice</message>
+    <date>12/5/2021</date>
+  </Feedback>
+  <Feedback>
+    <feedback_id>Feedback4</feedback_id>
+    <name>test1</name>
+    <email>test@gmail.com</email>
+    <subject>Feedback1</subject>
+    <message>Good Product</message>
+    <date>12/8/2021</date>
+  </Feedback>
+</Feedbacks>

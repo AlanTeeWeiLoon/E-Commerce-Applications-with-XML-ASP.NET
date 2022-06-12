@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminLayout.master.cs" Inherits="DECXML_Assignment.AdminLayout" %>
+
+<!DOCTYPE html>
+
+<html>
+	<head runat="server">
+	<title>DECXML | Sport Shoes</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="jquery-ui-datepicker/jquery-ui.min.css" type="text/css" />
+    <!-- http://api.jqueryui.com/datepicker/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="js/jquery.min.js"></script>
+	<!--<script src="js/jquery.easydropdown.js"></script>-->
+	<!--start slider -->
+	<link rel="stylesheet" href="css/fwslider.css" media="all">
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/fwslider.js"></script>
+	<!--end slider -->
+	<script type="text/javascript">
+			$(document).ready(function() {
+				$(".dropdown img.flag").addClass("flagvisibility");
+
+				$(".dropdown dt a").click(function() {
+					$(".dropdown dd ul").toggle();
+				});
+                        
+				$(".dropdown dd ul li a").click(function() {
+					var text = $(this).html();
+					$(".dropdown dt a span").html(text);
+					$(".dropdown dd ul").hide();
+					$("#result").html("Selected value is: " + getSelectedValue("sample"));
+				});
+                        
+				function getSelectedValue(id) {
+					return $("#" + id).find("dt a span.value").html();
+				}
+
+				$(document).bind('click', function(e) {
+					var $clicked = $(e.target);
+					if (! $clicked.parents().hasClass("dropdown"))
+						$(".dropdown dd ul").hide();
+				});
+
+
+				$("#flagSwitcher").click(function() {
+					$(".dropdown img.flag").toggleClass("flagvisibility");
+				});
+			});
+    </script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="jquery-ui-datepicker/jquery-ui.min.js"></script>
+    <!-- https://jqueryui.com/download/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script>
+        $(function () {
+            $("#expire_date").datepicker();
+        });
+    </script>
+	<asp:contentPlaceholder id="head" runat="server" />
+	</head>
+	<body>
+		<form id="form1" runat="server">
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="header-left">
+								<div class="logo">
+									<a href="AdminHome.aspx"><img src="images/Logo.png" alt=""/></a>
+								</div>
+								<div class="menu"> 
+									<a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+									<ul class="nav" id="nav">
+										<li><a href="AdminHome.aspx">Home</a></li>
+										<li><a href="ManageProduct.aspx">Manage Product</a></li>
+										<li><a href="AddCategory.aspx">Add Category</a></li>
+										<li><a href="ViewCategory.aspx">View Category</a></li>
+										<li><a href="ManageAds.aspx">Manage Ads</a></li>
+										<div class="clear"></div>
+									</ul>
+									<script type="text/javascript" src="js/responsive-nav.js"></script>
+								</div>							
+	    						<div class="clear"></div>
+	    					</div>
+							<div class="header_right">	    
+								<div class="login_buttons">
+									<div class="login_button"><a href="Login.aspx" runat="server" onserverclick="LogOut_Click">Logout</a></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">		
+			</asp:ContentPlaceHolder>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<ul class="footer_box">
+								<h4>Products</h4>
+								<li><a href="ViewProduct.aspx">View Products</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="footer_box">
+								<h4>About</h4>
+								<li><a href="AboutUs.aspx">Advantages</a></li>
+								<li><a href="AboutUs.aspx">Team</a></li>
+								<li><a href="AboutUs.aspx">Our Partners</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="footer_box">
+								<h4>Customer Support</h4>
+								<li><a href="ContactUs.aspx">Contact Us</a></li>
+								<li><a href="ContactUs.aspx">Feedback</a></li>
+								<li><a href="#">Returns - Coming soon</a></li>
+								<li><a href="#">Warranty - Coming Soon</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="footer_box">
+								<h4>Newsletter</h4>
+								<div class="footer_search">
+				    			   <form>
+				    				<input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
+				    				<a href="ContactUs.aspx"><input type="submit" value="Go"></a>
+				    			   </form>
+								</div>
+								<ul class="social">	
+									<li class="facebook"><a href="https://www.facebook.com/"><span></span></a></li>
+									<li class="twitter"><a href="https://twitter.com/?lang=en"><span></span></a></li>
+									<li class="instagram"><a href="https://www.instagram.com/"><span></span></a></li>
+									<li class="pinterest"><a href="https://www.pinterest.com/"><span></span></a></li>
+									<li class="youtube"><a href="https://www.youtube.com/"><span></span></a></li>									  				
+								</ul>
+							</ul>
+						</div>
+					</div>
+					<div class="row footer_bottom">
+						<div class="copy">
+						   <p>© 2021 Template by <a href="https://apspace.apu.edu.my" target="_blank">DECXML ALAN</a></p>
+						</div>
+   					</div>
+				</div>
+			</div>
+		</form>
+	</body>	
+</html>

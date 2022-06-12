@@ -1,0 +1,15 @@
+﻿.table {
+    background-color: #50697f;
+    color: #fff;
+    font-size: 85%;
+    margin-bottom: 0;
+}
+
+thead {
+    background-color: #486177;
+    color: #fff;
+}
+
+.table thead th {
+    border-bottom: 0;
+}

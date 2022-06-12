@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Users SYSTEM "Users.dtd"[]>
+<Users>
+  <User email="admin@gmail.com">
+    <name>Admin</name>
+    <age>0</age>
+    <address>None</address>
+    <password>admin</password>
+    <position>Admin</position>
+  </User>
+  <User email="alan@gmail.com">
+    <name>Alan</name>
+    <age>21</age>
+    <address>Parkhill Residence</address>
+    <password>123456</password>
+    <position>User</position>
+  </User>
+  <User email="caemas@gmail.com">
+    <name>Caemas</name>
+    <age>21</age>
+    <address>Parkhill Residence C Block</address>
+    <password>123456</password>
+    <position>User</position>
+  </User>
+  <User email="ben@gmail.com">
+    <name>Ben</name>
+    <age>21</age>
+    <address>Parkhill Residence Block D</address>
+    <password>123456</password>
+    <position>User</position>
+  </User>
+  <User email="test1@gmail.com">
+    <name>Test1</name>
+    <age>21</age>
+    <address>apu</address>
+    <password>123456</password>
+    <position>User</position>
+  </User>
+</Users>

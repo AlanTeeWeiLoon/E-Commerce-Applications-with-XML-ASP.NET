@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<Advertisements>
+  <Ad>
+    <Ads_ID>Ads1</Ads_ID>
+    <ImageUrl>../AdsImages/image1.jpg</ImageUrl>
+    <NavigateUrl>https://www.gatorade.com/</NavigateUrl>
+    <AlternateText>Sport Drink</AlternateText>
+    <Keyword>Sport Drink</Keyword>
+    <Caption>Drink More, Energy More</Caption>
+  </Ad>
+  <Ad>
+    <Ads_ID>Ads2</Ads_ID>
+    <ImageUrl>../AdsImages/image2.jpg</ImageUrl>
+    <NavigateUrl>https://www.nike.com/my/</NavigateUrl>
+    <AlternateText>Sport Shirt</AlternateText>
+    <Keyword>Sport Shirt</Keyword>
+    <Caption>Nike Best Sport Shirts</Caption>
+  </Ad>
+  <Ad>
+    <Ads_ID>Ads3</Ads_ID>
+    <ImageUrl>../AdsImages/image3.jpg</ImageUrl>
+    <NavigateUrl>https://www.adidas.com.my/en/</NavigateUrl>
+    <AlternateText>Adidas</AlternateText>
+    <Keyword>Adidas</Keyword>
+    <Caption>Adidas x Nike</Caption>
+  </Ad>
+  <Ad>
+    <Ads_ID>Ads4</Ads_ID>
+    <ImageUrl>../AdsImages/image4.jpg</ImageUrl>
+    <NavigateUrl>https://my.puma.com/</NavigateUrl>
+    <AlternateText>Puma</AlternateText>
+    <Keyword>Puma</Keyword>
+    <Caption>Puma x Nike</Caption>
+  </Ad>
+</Advertisements>

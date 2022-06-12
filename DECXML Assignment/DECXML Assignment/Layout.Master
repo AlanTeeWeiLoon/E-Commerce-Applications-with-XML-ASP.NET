@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="DECXML_Assignment.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>DECXML | Sport Shoes</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/jquery.easydropdown.js"></script>-->
+    <!--start slider -->
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/fwslider.js"></script>
+    <!--end slider -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function () {
+                $(".dropdown dd ul").toggle();
+            });
+
+            $(".dropdown dd ul li a").click(function () {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function (e) {
+                var $clicked = $(e.target);
+                if (!$clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function () {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="#" runat="server" onserverclick="Home_Click">
+                                    <img src="images/Logo.png" alt="" /></a>
+                            </div>
+                            <div class="menu">
+                                <a class="toggleMenu" href="#">
+                                    <img src="images/nav.png" alt="" /></a>
+                                <ul class="nav" id="nav">
+                                    <li><a href="#" runat="server" onserverclick="Home_Click">Home</a></li>
+                                    <li><a href="#" runat="server" onserverclick="Products_Click">Products</a></li>
+                                    <li><a href="#" runat="server" onserverclick="AboutUs_Click">About Us</a></li>
+                                    <li><a href="#" runat="server" onserverclick="ContactUs_Click">Contact Us</a></li>
+                                    <li><a href="#" runat="server" onserverclick="Cart_Click">Cart</a></li>
+                                    <div class="clear"></div>
+                                </ul>
+                                <script type="text/javascript" src="js/responsive-nav.js"></script>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="header_right">
+                            <div class="login_buttons">
+
+                                <div class="login_button">
+                                    <% 
+                                    if (Session["ID"] == null)
+                                    {%>
+                                    <a href="Login.aspx"><span>Login</span></a><%}
+                                                                           else
+                                                                           {%><a href="#" runat="server" onserverclick="LogOut_Click"><span>LogOut</span></a> <%}
+                            %>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="footer_box">
+                            <h4>Products</h4>
+                            <li><a href="ProductList.aspx">Shoes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="footer_box">
+                            <h4>About</h4>
+                            <li><a href="AboutUs.aspx">Advantages</a></li>
+                            <li><a href="AboutUs.aspx">Team</a></li>
+                            <li><a href="AboutUs.aspx">Our Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="footer_box">
+                            <h4>Customer Support</h4>
+                            <li><a href="ContactUs.aspx">Contact Us</a></li>
+                            <li><a href="ContactUs.aspx">Feedback</a></li>
+                            <li><a href="#">Returns - Coming soon</a></li>
+                            <li><a href="#">Warranty - Coming Soon</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="footer_box">
+                            <h4>Newsletter</h4>
+                            <div class="footer_search">
+                                <form>
+                                    <input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
+                                    <a href="ContactUs.aspx"><input type="submit" value="Go"></a>
+                                </form>
+                            </div>
+                            <ul class="social">
+                                <li class="facebook"><a href="https://www.facebook.com/"><span></span></a></li>
+                                <li class="twitter"><a href="https://twitter.com/?lang=en"><span></span></a></li>
+                                <li class="instagram"><a href="https://www.instagram.com/"><span></span></a></li>
+                                <li class="pinterest"><a href="https://www.pinterest.com/"><span></span></a></li>
+                                <li class="youtube"><a href="https://www.youtube.com/"><span></span></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer_bottom">
+                    <div class="copy">
+                        <p>© 2021 Template by <a href="https://apspace.apu.edu.my" target="_blank">DECXML ALAN</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

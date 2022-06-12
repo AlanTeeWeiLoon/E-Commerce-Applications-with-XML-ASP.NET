@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Feedback* indicate that element can appear many times-->
+<!ELEMENT Feedbacks (Feedback*)>
+<!--Defining Feedback's child element sequence-->
+<!ELEMENT Feedback (feedback_id,name,email,subject,message,date)>
+<!ELEMENT feedback_id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT date (#PCDATA)>

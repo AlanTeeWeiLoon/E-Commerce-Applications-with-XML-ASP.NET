@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<Products>
+  <Product>
+    <Prod_ID>Prod1</Prod_ID>
+    <Prod_Name>NIKE 1</Prod_Name>
+    <Prod_Description>NIKE 1</Prod_Description>
+    <Prod_Category>Male</Prod_Category>
+    <Prod_Price>299</Prod_Price>
+    <Prod_Stock>12</Prod_Stock>
+    <Prod_Image>ProductImage/product1.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod10</Prod_ID>
+    <Prod_Name>DECXML Shoe 4</Prod_Name>
+    <Prod_Description>DECXML Shoe 4</Prod_Description>
+    <Prod_Category>Young</Prod_Category>
+    <Prod_Price>199</Prod_Price>
+    <Prod_Stock>100</Prod_Stock>
+    <Prod_Image>ProductImage/product9.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod11</Prod_ID>
+    <Prod_Name>DECXML Shoe 5</Prod_Name>
+    <Prod_Description>DECXML Shoe 5</Prod_Description>
+    <Prod_Category>Female</Prod_Category>
+    <Prod_Price>499</Prod_Price>
+    <Prod_Stock>500</Prod_Stock>
+    <Prod_Image>ProductImage/product10.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod12</Prod_ID>
+    <Prod_Name>DECXML Kid Shoe 1</Prod_Name>
+    <Prod_Description>DECXML Kid Shoe 1</Prod_Description>
+    <Prod_Category>Kids</Prod_Category>
+    <Prod_Price>699</Prod_Price>
+    <Prod_Stock>600</Prod_Stock>
+    <Prod_Image>ProductImage/product11.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod2</Prod_ID>
+    <Prod_Name>DECXML Shoe</Prod_Name>
+    <Prod_Description>DECXML Shoe</Prod_Description>
+    <Prod_Category>Male</Prod_Category>
+    <Prod_Price>399</Prod_Price>
+    <Prod_Stock>100</Prod_Stock>
+    <Prod_Image>ProductImage/default.png</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod3</Prod_ID>
+    <Prod_Name>NIKE 3</Prod_Name>
+    <Prod_Description>NIKE 3</Prod_Description>
+    <Prod_Category>Kids</Prod_Category>
+    <Prod_Price>199</Prod_Price>
+    <Prod_Stock>3</Prod_Stock>
+    <Prod_Image>ProductImage/product2.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod4</Prod_ID>
+    <Prod_Name>NIKE 2</Prod_Name>
+    <Prod_Description>NIKE 2</Prod_Description>
+    <Prod_Category>Female</Prod_Category>
+    <Prod_Price>399</Prod_Price>
+    <Prod_Stock>12</Prod_Stock>
+    <Prod_Image>ProductImage/product3.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod5</Prod_ID>
+    <Prod_Name>NIKE 5</Prod_Name>
+    <Prod_Description>NIKE 5</Prod_Description>
+    <Prod_Category>Female</Prod_Category>
+    <Prod_Price>699</Prod_Price>
+    <Prod_Stock>123</Prod_Stock>
+    <Prod_Image>ProductImage/product4.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod6</Prod_ID>
+    <Prod_Name>NIKE 6</Prod_Name>
+    <Prod_Description>NIKE 6</Prod_Description>
+    <Prod_Category>Kids</Prod_Category>
+    <Prod_Price>899</Prod_Price>
+    <Prod_Stock>22</Prod_Stock>
+    <Prod_Image>ProductImage/product5.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod7</Prod_ID>
+    <Prod_Name>NIKE 7</Prod_Name>
+    <Prod_Description>NIKE 7</Prod_Description>
+    <Prod_Category>Male</Prod_Category>
+    <Prod_Price>899</Prod_Price>
+    <Prod_Stock>1</Prod_Stock>
+    <Prod_Image>ProductImage/product6.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod8</Prod_ID>
+    <Prod_Name>DECXML Shoe 2</Prod_Name>
+    <Prod_Description>DECXML Shoe 2</Prod_Description>
+    <Prod_Category>Female</Prod_Category>
+    <Prod_Price>499</Prod_Price>
+    <Prod_Stock>100</Prod_Stock>
+    <Prod_Image>ProductImage/product7.jpg</Prod_Image>
+  </Product>
+  <Product>
+    <Prod_ID>Prod9</Prod_ID>
+    <Prod_Name>DECXML Shoe 3</Prod_Name>
+    <Prod_Description>DECXML Shoe 3</Prod_Description>
+    <Prod_Category>Female</Prod_Category>
+    <Prod_Price>899</Prod_Price>
+    <Prod_Stock>200</Prod_Stock>
+    <Prod_Image>ProductImage/product8.jpg</Prod_Image>
+  </Product>
+</Products>

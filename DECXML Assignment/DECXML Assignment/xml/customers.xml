@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<Customers>
+  <Customer>
+    <Cust_ID>Cust1</Cust_ID>
+    <Cust_Name>Alan</Cust_Name>
+    <Cust_Email>alan@gmail.com</Cust_Email>
+    <Cust_Password>123456</Cust_Password>
+    <Cust_Address>Parkhill Residence</Cust_Address>
+    <Cust_Age>21</Cust_Age>
+  </Customer>
+  <Customer>
+    <Cust_ID>Cust2</Cust_ID>
+    <Cust_Name>Caemas</Cust_Name>
+    <Cust_Email>caemas@gmail.com</Cust_Email>
+    <Cust_Password>123456</Cust_Password>
+    <Cust_Address>Parkhill Residence C Block</Cust_Address>
+    <Cust_Age>21</Cust_Age>
+  </Customer>
+  <Customer>
+    <Cust_ID>Cust3</Cust_ID>
+    <Cust_Name>Ben</Cust_Name>
+    <Cust_Email>ben@gmail.com</Cust_Email>
+    <Cust_Password>123456</Cust_Password>
+    <Cust_Address>Parkhill Residence Block D</Cust_Address>
+    <Cust_Age>21</Cust_Age>
+  </Customer>
+  <Customer>
+    <Cust_ID>Cust4</Cust_ID>
+    <Cust_Name>Test1</Cust_Name>
+    <Cust_Email>test1@gmail.com</Cust_Email>
+    <Cust_Password>123456</Cust_Password>
+    <Cust_Address>apu</Cust_Address>
+    <Cust_Age>21</Cust_Age>
+  </Customer>
+</Customers>

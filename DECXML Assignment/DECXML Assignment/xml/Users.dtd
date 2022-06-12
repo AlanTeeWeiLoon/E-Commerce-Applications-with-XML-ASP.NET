@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--User element contain single element called User-->
+<!-- User* indicate that element can appear many times-->
+<!ELEMENT Users (User*)>
+<!--Defining User's child element sequence-->
+<!ELEMENT User (name,age,address,password,position)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!--Defining username attribute must contain character data-->
+<!ATTLIST User email CDATA #REQUIRED>
