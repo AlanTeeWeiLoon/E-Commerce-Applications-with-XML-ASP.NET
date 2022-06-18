@@ -46,31 +46,32 @@ There are 3 users in this system, which are:
 
 ### 🎥 Sample Output :
 
+- Login Page
+
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Login.jpg" />
+
 - Admin Home Page
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/AdminHome.png" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Admin%20Home%20Page.jpg" />
 
-- Sample Add and Edit (Item) Modal
+- Sample Add and Edit (Product) Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/AddEditModal.png" />
+<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Add%20New%20Product%20Page.jpg" />
 
 - Homepage
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Homepage.jpg" width="650" height="1044" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Homepage.jpg" width="650" height="1044" />
 
-- Menu Page
+- Product Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Menu.jpg" width="650" height="1044" />
+<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Product%20page.jpg" width="650" height="1044" />
 
-- OTP
+- Product Details Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/OTP.png" />
+<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Single%20Product%20Page.jpg" />
 
-- Rating
+- Shopping Cart
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Rating.png" />
+<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Shopping%20Cart.jpg" />
 
-- Receipt
-
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Receipt.png" />
 
