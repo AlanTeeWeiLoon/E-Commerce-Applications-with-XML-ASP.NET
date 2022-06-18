@@ -56,22 +56,22 @@ There are 3 users in this system, which are:
 
 - Sample Add and Edit (Product) Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Add%20New%20Product%20Page.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Add%20New%20Product%20Page.jpg" />
 
 - Homepage
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Homepage.jpg" width="650" height="1044" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Homepage.jpg"  />
 
 - Product Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Product%20page.jpg" width="650" height="1044" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Product%20page.jpg" />
 
 - Product Details Page
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Single%20Product%20Page.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Single%20Product%20Page.jpg" />
 
 - Shopping Cart
 
-<img src="https://github.com/AlanTeeWeiLoon/Online-Hawker/blob/main/Image/Shopping%20Cart.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Shopping%20Cart.jpg" />
 
 
