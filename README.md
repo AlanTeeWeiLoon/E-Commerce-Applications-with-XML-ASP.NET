@@ -56,7 +56,7 @@ There are 3 users in this system, which are:
 
 - Sample Add and Edit (Product) Page
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Add%20New%20Product%20Page.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Add%20New%20Product%20Page.jpg" />
 
 - Homepage
 
@@ -64,14 +64,14 @@ There are 3 users in this system, which are:
 
 - Product Page
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Product%20page.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Product%20page.jpg" />
 
 - Product Details Page
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Single%20Product%20Page.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Single%20Product%20Page.jpg" />
 
 - Shopping Cart
 
-<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Image/Shopping%20Cart.jpg" />
+<img src="https://github.com/AlanTeeWeiLoon/E-Commerce-Applications-with-XML-ASP.NET/blob/main/Images/Shopping%20Cart.jpg" />
 
 
